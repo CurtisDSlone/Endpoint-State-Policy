@@ -9,7 +9,7 @@
 ---
 
 > [!NOTE]
-> ### 🚀 ProofLayer is now in public alpha — and it runs on this engine
+> ### ProofLayer is now in public alpha — and it runs on this engine
 >
 > [**ProofLayer**](https://hub.docker.com/r/curtisDslone/prooflayer-alpha-v0_1) is an
 > **agentless continuous-compliance platform** that turns each scan into a

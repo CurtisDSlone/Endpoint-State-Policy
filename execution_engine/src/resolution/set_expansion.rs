@@ -100,7 +100,7 @@ fn expand_set_ref_in_declaration_helper(
     // ctn_content allows SET_REFs alongside OBJECT_REFs; the parser
     // gating was relaxed in the same change that added this branch.
     if !declaration.set_refs.is_empty() {
-        let set_refs_drained: Vec<_> = declaration.set_refs.drain(..).collect();
+        let set_refs_drained = std::mem::take(&mut declaration.set_refs);
         for set_ref in set_refs_drained {
             let expanded = expand_set_ref_to_object_refs(
                 &set_ref.set_id,

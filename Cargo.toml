@@ -7,8 +7,8 @@ version = "2.2.3"
 edition = "2021"
 authors = ["Curtis Slone <curtisdslone@gmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/CurtisSlone/Endpoint-State-Policy"
-homepage = "https://github.com/CurtisSlone/Endpoint-State-Policy"
+repository = "https://github.com/CurtisDSlone/Endpoint-State-Policy"
+homepage = "https://github.com/CurtisDSlone/Endpoint-State-Policy"
 
 [workspace.dependencies]
 # Shared dependencies across workspace
